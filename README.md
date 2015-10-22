@@ -77,15 +77,6 @@ Callback returns string containing inlined HTML. Fetches remote resources.
    - `err` - `Error` object or `null`
    - `html` - inlined HTML
 
-#### juice.juiceFile(filePath, options, callback)
-
-Callback returns string containing inlined HTML. Fetches remote resources.
-
- * `filePath` - path to the html file to be juiced
- * `options` - see Options above
- * `callback(err, html)`
-   - `err` - `Error` object or `null`
-   - `html` - inlined HTML
 
 #### juice.juiceDocument($ [, options])
 

@@ -122,7 +122,7 @@ it('parse complex css into a object structure', function () {
     assert.deepEqual(bed[1],cab[1]);
 } );
 
-it('test juice', function () {
-    assert.deepEqual(juice('<div a="b">woot</div>', {extraCss: 'div { color: red; }'}),
-        '<div a="b" style="color: red;">woot</div>');
-} );
+// it('test juice', function () {
+//     assert.deepEqual(juice('<div a="b">woot</div>', {extraCss: 'div { color: red; }'}),
+//         '<div a="b" style="color: red;">woot</div>');
+// } );
